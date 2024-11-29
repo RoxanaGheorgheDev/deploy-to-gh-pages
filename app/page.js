@@ -33,7 +33,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="deploy-to-gh-pages/vercel.svg"
+              src={`${prefix}/vercel.svg`}
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -59,7 +59,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="deploy-to-gh-pages/file.svg"
+            src={`${prefix}/file.svg`}
             alt="File icon"
             width={16}
             height={16}
@@ -74,7 +74,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="deploy-to-gh-pages/window.svg"
+            src={`${prefix}/window.svg`}
             alt="Window icon"
             width={16}
             height={16}
@@ -89,7 +89,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="deploy-to-gh-pages/globe.svg"
+            src={`${prefix}/globe.svg`}
             alt="Globe icon"
             width={16}
             height={16}

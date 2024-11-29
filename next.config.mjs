@@ -8,6 +8,10 @@ const nextConfig = {
 
   // basePath allows you to set a path prefix for the application when deploying
   basePath: "/deploy-to-gh-pages",
+  images: {
+    loader: "akamai",
+    path: "",
+  },
 };
 
 export default nextConfig;
